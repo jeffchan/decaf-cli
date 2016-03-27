@@ -101,7 +101,7 @@ function runWithStream(input, output, callback) {
   input.on('end', function() {
     let converted = '';
     try {
-      converted = convertCoffee(data);
+      converted = convertCoffee(data).code;
       converted = convertEsnext(converted, { ecmaFeatures: { jsx: true, experimentalObjectRestSpread: true } }).code;
     } catch (err) {
       error = err;
