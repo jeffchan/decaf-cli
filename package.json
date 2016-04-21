@@ -1,5 +1,5 @@
 {
-  "name": "decaf-codemod",
+  "name": "decaf-cli",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -19,7 +19,7 @@
     "mocha": "^2.3.4"
   },
   "dependencies": {
-    "decaffeinate": "^1.44.13",
+    "decaffeinate": "^2.7.3",
     "esnext": "git://github.com/jeffchan/esnext.git#81d46172986cf17b947ad1e7c3b531c757caaeef",
     "jscodeshift": "^0.3.9"
   }
